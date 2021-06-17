@@ -1,0 +1,7 @@
+{
+  "name": "myApi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
