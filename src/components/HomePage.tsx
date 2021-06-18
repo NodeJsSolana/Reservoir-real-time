@@ -1,7 +1,7 @@
 import { IonToolbar, IonTitle, IonContent, IonCard, IonHeader, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonButton } from '@ionic/react'
 import { Link } from 'react-router-dom'
 import "./Home.css"
-import ReservoirPage from './ReservoirPage'
+
 
 const HomePage: React.FC = () => (
   <>
@@ -28,13 +28,13 @@ const HomePage: React.FC = () => (
       </IonCard>
       <IonCard>
         <IonCardHeader>
-          <IonCardSubtitle>Electricity Detail</IonCardSubtitle>
-          <IonCardTitle>Electricity Detail real-time data</IonCardTitle>
+          <IonCardSubtitle>Rainy Detail</IonCardSubtitle>
+          <IonCardTitle>Rainy Detail real-time data</IonCardTitle>
         </IonCardHeader>
         <IonCardContent>
 
           <IonButton>
-            <Link to='/Electricity' target="_blank">
+            <Link to='/Rainy' target="_blank">
                 <p>Detail</p>
             </Link>
           </IonButton>

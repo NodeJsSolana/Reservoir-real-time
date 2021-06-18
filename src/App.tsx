@@ -33,6 +33,7 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 import ReservoirPage from './components/ReservoirPage';
+import RainyPage from './components/RainyPage';
 
 const App: React.FC = () => (
   <IonApp>
@@ -40,6 +41,7 @@ const App: React.FC = () => (
       <IonTabs>
         <IonRouterOutlet>
           <Route exact path="/Reservoir" component={ReservoirPage}></Route>
+          <Route exact path="/Rainy" component={RainyPage}></Route>
           <Route exact path="/tab1">
             <Tab1 />
           </Route>
